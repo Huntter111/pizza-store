@@ -1,2 +1,3 @@
-# pizza-store
+# Pizza-store
+
 Landing page - Pizza store
