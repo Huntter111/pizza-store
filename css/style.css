@@ -20,7 +20,7 @@ body {
 	max-width: 1250px;
 	margin: 0 auto;
 }
-/* Style header */
+/*? Style header */
 .header {
 	font-size: 24px;
 	line-height: 1.3;
@@ -55,52 +55,54 @@ body {
 	color: rgba(166, 166, 166, 0.6);
 }
 
-/* Style main block */
+/*? Style main block */
 .caravana {
-	background-image: url('../img/background.jpg');
+	background: url('../img/background.jpg');
 	background-size: cover;
 	padding: 192px 250px 0 210px;
 }
+.caravama-block {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 .caravana__title {
+	position: relative;
 	font-family: 'Quattrocento';
 	font-weight: 700;
 	font-size: 72px;
 	line-height: 1.3;
-	text-align: center;
 	text-transform: uppercase;
+	margin-bottom: 34px;
 }
-.line {
-	margin: -10px auto;
+.caravana__title::before {
+	content: '';
+	position: absolute;
 	background: #f2c94c;
 	box-shadow: 3px 6px 18px rgba(0, 0, 0, 0.25);
-}
-.line__block {
-	max-width: 482px;
+	top: 80px;
+	width: 482px;
 	height: 4px;
 }
 .caravana__text {
 	text-align: center;
+	margin-bottom: 64px;
 }
-.caravana__text p {
+.caravana__text {
 	max-width: 745px;
 	font-size: 25px;
 	line-height: 40px;
 	letter-spacing: 0.09em;
-	margin: 0 auto 23px auto;
 }
 .line__block {
 	margin-bottom: 20px;
 }
-.caravana__image {
-	display: flex;
-	justify-content: center;
-	/* transform: translate(-5%, 0%); */
-}
+
 .caravana__image img {
-	max-width: 300%;
+	max-width: 100%;
 }
 
-/* * Style About US */
+/* ? Style About US */
 .about-us {
 	padding: 140px 0;
 }
@@ -155,7 +157,7 @@ body {
 	max-width: 100%;
 }
 
-/* * Style Footer */
+/* ? Style Footer */
 .footer {
 	padding: 30px;
 }
