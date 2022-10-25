@@ -88,3 +88,15 @@ body {
 .caravana__image img {
 	max-width: 300%;
 }
+
+/* * Style Footer */
+.footer {
+	padding: 30px;
+}
+.footer__title {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 24px;
+
+	letter-spacing: 0.06em;
+}
