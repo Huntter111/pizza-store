@@ -97,7 +97,9 @@ body {
 .line__block {
 	margin-bottom: 20px;
 }
-
+.caravana__image {
+	transform: translateX(30px);
+}
 .caravana__image img {
 	max-width: 100%;
 }
