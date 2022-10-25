@@ -151,7 +151,7 @@ body {
 .about-us__button:hover {
 	color: rgba(255, 191, 0, 0.8);
 	border: 2px solid rgba(255, 191, 0, 0.7);
-	transition: all 1s;
+	transition: all 0.3s;
 }
 .block-content__image {
 	max-width: 100%;
@@ -162,6 +162,7 @@ body {
 	padding: 60px 0 230px 0;
 }
 .find-us__name {
+	font-family: 'Quattrocento';
 	font-size: 60px;
 	position: relative;
 	display: flex;
@@ -207,6 +208,65 @@ body {
 	display: block;
 }
 
+/* ? Style Our menu */
+.our-menu {
+	padding: 100px 0;
+}
+.block-our-menu {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.block-our-menu__title {
+	font-family: 'Quattrocento';
+	font-size: 60px;
+	position: relative;
+	margin-bottom: 40px;
+}
+.block-our-menu__title::before {
+	content: '';
+	position: absolute;
+	width: 474px;
+	height: 9px;
+	transform: translate(-18%, 70px);
+	background: #f2c94c;
+}
+.block-our-menu__text {
+	font-size: 25px;
+	line-height: 1.6;
+	text-align: center;
+	letter-spacing: 0.09em;
+	margin-bottom: 70px;
+}
+.our-menu-images {
+	display: flex;
+	justify-content: space-between;
+	gap: 80px;
+	flex-wrap: wrap;
+	margin-bottom: 80px;
+}
+.our-menu-images__img {
+	flex: 0 1 576px;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.our-menu-images__img img {
+	max-width: 100%;
+	height: 100%;
+}
+.block-our-menu__button {
+	font-size: 17px;
+	line-height: 1.3;
+	color: #f2c94c;
+	border: 2px solid #f2c94c;
+	border-radius: 2px;
+	padding: 12px 40px;
+}
+.block-our-menu__button:hover {
+	color: rgba(255, 191, 0, 0.8);
+	border: 2px solid rgba(255, 191, 0, 0.7);
+	transition: all 0.3s;
+}
 /* ? Style Footer */
 .footer {
 	padding: 30px;
