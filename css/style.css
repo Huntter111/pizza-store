@@ -157,6 +157,56 @@ body {
 	max-width: 100%;
 }
 
+/* ? Style Find US */
+.find-us {
+	padding: 60px 0 230px 0;
+}
+.find-us__name {
+	font-size: 60px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 125px;
+}
+.find-us__name::before {
+	content: '';
+	position: absolute;
+	width: 474px;
+	height: 9px;
+	top: 75px;
+	background: #f2c94c;
+}
+.find-us-block {
+	display: flex;
+	-moz-column-gap: 87px;
+	column-gap: 87px;
+	align-items: center;
+}
+.find-us-block__map iframe {
+	width: 603px;
+	height: 567px;
+	border-radius: 5px;
+}
+.find-us-block__map {
+	border-radius: 5px;
+}
+.find-us-block__info {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.info {
+	font-size: 25px;
+	line-height: 1.6;
+	letter-spacing: 0.09em;
+}
+.info__attendance span {
+	display: block;
+}
+.info__delivery span {
+	display: block;
+}
+
 /* ? Style Footer */
 .footer {
 	padding: 30px;
