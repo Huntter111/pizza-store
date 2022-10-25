@@ -41,18 +41,20 @@ body {
 	cursor: pointer;
 	text-transform: uppercase;
 }
-.header-list ul {
+.list {
 	text-transform: uppercase;
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
+	gap: 30px;
 }
-.header-list ul li {
-	margin-right: 30px;
+
+.list__item {
 	cursor: pointer;
 }
-.header-list ul li:hover {
-	color: rgba(166, 166, 166, 0.6);
+.list__item a:hover {
+	color: rgba(201, 201, 201, 0.6);
+	transition: all 0.3s;
 }
 
 /*? Style main block */
