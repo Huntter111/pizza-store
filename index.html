@@ -6,7 +6,7 @@
 	<meta charset="UTF-8" />
 	<meta name="format-detection" content="telephone=no" />
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230108215448" />
+	<link rel="stylesheet" href="css/style.min.css?_v=20230109115734" />
 	<link rel="shortcut icon" href="favicon.ico" />
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -22,10 +22,18 @@
 				<div class="header__menu menu">
 					<nav class="menu__body">
 						<ul class="menu__list">
-							<li data-goto=".main-page" class="menu__item"><a href="#" class="menu__link">Головна</a></li>
-							<li data-goto=".about-us" class="menu__item"><a href="" class="menu__link">Про нас</a></li>
-							<li data-goto=".our-menu" class="menu__item"><a href="" class="menu__link">Меню </a></li>
-							<li data-goto=".our-contact" class="menu__item"><a href="" class="menu__link">Контакти</a></li>
+							<li data-goto-header data-goto=".main-page" class="menu__item">
+								<a href="#" class="menu__link">Головна</a>
+							</li>
+							<li data-goto-header data-goto=".about-us" class="menu__item">
+								<a href="" class="menu__link">Про нас</a>
+							</li>
+							<li data-goto-header data-goto=".our-menu" class="menu__item">
+								<a href="" class="menu__link">Меню </a>
+							</li>
+							<li data-goto-header data-goto=".our-contact" class="menu__item">
+								<a href="" class="menu__link">Контакти</a>
+							</li>
 						</ul>
 					</nav>
 				</div>
@@ -145,6 +153,7 @@
 						</a>
 						<a href="https://www.whatsapp.com/?lang=ru" target="_blank">
 							<img src="img/contacts/whatsapp.svg" alt="icon: whatsapp" />
+						</a>
 					</div>
 				</div>
 			</section>
@@ -157,7 +166,7 @@
 		</footer>
 
 	</div>
-	<script src="js/app.min.js?_v=20230108215448"></script>
+	<script src="js/app.min.js?_v=20230109115734"></script>
 </body>
 
 </html>
